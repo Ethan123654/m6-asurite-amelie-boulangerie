@@ -30,5 +30,54 @@ h1{
 }
 nav{
     width: 150px;
-    
+    margin-top: 16px;
+}
+nav li{
+    text-decoration: none;
+    text-align: center;
+}
+nav a{
+    display: block;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e0e5de;
+    color: #141a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul:first-child:hover{
+    background-color: #f28095;
+}
+main{
+    color:#542c1b;
+    padding-bottom: 16px;
+}
+main img{
+    float: left;  
+}
+main p, ul{
+display: inline-block;
+width: 50%;
+}
+main p{
+    margin-left: 32px;
+}
+main ul{
+    margin-left: 16px;
+}
+address{
+    clear: both;
+    padding-top: 16px;
+}
+footer{
+    font-style: italic;
+    text-align: center;
+    background-color: #afaeb4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
 }
